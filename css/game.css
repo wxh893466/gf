@@ -1,0 +1,189 @@
+.banner{
+	position: relative;
+	height: 254px;
+}
+.banner img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -840px;
+}
+.content .content_hd{
+	height: 69px;
+	border-bottom: 1px solid #C7D6E5;
+	overflow: hidden;
+}
+.content .content_hd h3{
+	/*行高大于盒子高*/
+	line-height: 80px;
+	padding-left: 30px;
+	background:url(../images/icons.png) no-repeat -446px 32px; 
+	font-size: 20px;
+	font-weight: bold;
+	color: #444866;
+	float: left;
+}
+.content .content_hd .breadNav{
+	float: right;
+	width: 92px;
+	height: 69px;
+	padding-top: 32px;
+
+}
+.content .content_hd .breadNav a{
+	float: left;
+	width: 18px;
+	height: 18px;
+	background: url(../images/icons.png) no-repeat -453px -59px;
+	text-indent: -999em;
+	overflow: hidden;
+}
+.content .content_hd .breadNav span{
+	float: left;
+	padding-left: 10px;
+	background: url(../images/icons.png) no-repeat -455px -115px;
+
+}
+.content .content_bd{
+
+	
+}
+.content .menu{
+	float: left;
+	width: 195px;
+	padding-top: 40px;
+
+}
+.content .menu li{
+	line-height: 80px;
+	border-bottom: 1px solid #CAD6E1;
+	position: relative;
+}
+.content .menu li a{
+	color:#447EB8;
+	text-decoration: none;
+	display: block;
+	height: 80px;
+	color: #44488F;
+	padding-left: 50px;
+}
+
+.content .menu li a:hover{
+	color: #38B774;
+}
+.content .menu li a.current{
+	background: url(../images/icons.png) no-repeat 187px -124px;
+}
+.content .menu li a b{
+	position: absolute;
+	width: 34px;
+	height: 41px;
+	top: 50%;
+	left: 0;
+	margin-top: -20px;
+	background: url(../images/tadejingling.png) no-repeat;
+}
+
+
+.content .menu li a b.android { background-position: -4px -97px; }
+.content .menu li a b.ipad { background-position: 0 -199px; }
+.content .menu li a b.pc { background-position: 0 -295px; }
+.content .menu li a b.tv { background-position: 0 -602px; }
+
+.content .menu li a:hover b.iphone { background-position: -125px 0; }
+.content .menu li a:hover b.android { background-position: -124px -97px; }
+.content .menu li a:hover b.ipad{ background-position: -121px -199px; }
+.content .menu li a:hover b.pc { background-position: -120px -295px; }
+.content .menu li a:hover b.tv { background-position: -43px -602px; }
+
+.content .menu li a.current b.iphone { background-position: -125px 0; }
+.content .menu li a.current b.android { background-position: -124px -97px; }
+.content .menu li a.current b.ipad{ background-position: -121px -199px; }
+.content .menu li a.current b.pc { background-position: -120px -295px; }
+.content .menu li a.current b.tv { background-position: -43px -602px; }
+
+.content {
+	overflow: hidden;
+}
+
+.content .main{
+	float: right;
+	width: 757px;
+	padding-top: 44px;
+	overflow: hidden;
+}
+.content .main ul{
+	/*父亲加宽，让右边margin的盒子不溢出
+	技巧*/
+	width: 800px;
+}
+.content .main li{
+	float: left;
+	width: 355px;
+	height: 327px;
+	border:1px solid #333;
+	margin-right: 43px;
+	margin-bottom: 43px;
+	border-radius: 4px;
+	background-color: #F7F7F7;
+}
+.content .main li h4{
+	line-height: 58px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333;
+
+}
+.content .main li h4 span{
+	font-size: 14px;
+	color: #38B774;
+	padding-left: 8px;
+	padding-right: 8px;
+	background:url(../images/arrow.png) no-repeat right center; 
+}
+.content .main li .pic{
+	margin: 0 12px;
+}
+.content .main li .btns{
+	padding-top: 20px;
+}
+.content .main li .btns .btn1{
+	float: left;
+	width: 135px;
+	height: 34px;
+	padding-left: 46px;
+	line-height: 34px;
+	border-right: 1px solid #CAD6E5;
+}
+.content .main li .btns a{
+	display: block;
+	padding-left: 35px;
+	height: 34px;
+	text-decoration: none;
+	color: #333;
+	background: url(../images/icons.png) no-repeat -444px -178px;
+}
+
+.content .main li .btns  a:hover{
+	color: #38B774;
+}
+.content .main li .btns .btn2{
+	float: left;
+	width: 147px;
+	height: 34px;
+	padding-left: 26px;
+	line-height: 34px;
+}
+.content .main li .btns .btn2 a{
+	padding-left: 40px;
+	background-position:-442px -250px;
+}
+.shenming{
+	background-color: #252947;
+	color: #6c6e7e;
+	padding: 24px 0;
+	line-height: 24px;
+	font-size: 12px;
+}
+

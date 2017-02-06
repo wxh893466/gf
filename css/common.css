@@ -1,0 +1,122 @@
+/*公共类原子类*/
+		body{
+			font-size: 14px;
+			font-family: "Arial","Microsoft Yahei","SimSun";
+			height: 999px;
+		}
+		.inner_c{
+			margin: 0 auto;
+			width: 1000px;
+		}
+		/*公共类*/
+		.cl{
+			clear: both;
+		}
+		.nomargin{
+			margin: 0 !important;
+		}
+		.header{
+			background-color: #191D3A;
+			height: 58px;
+		}
+		/*在别的地方不会乱用，提取出来*/
+		.logo{
+			float: left;
+			padding-left: 20px;
+			padding-top: 10px;
+		}
+		.logo h1{
+			width: 158px;
+			height: 35px;
+			background: url(../images/logo.png) no-repeat 0 0;
+			text-indent: -999em;
+			overflow: hidden;
+		}
+		.logo h1 a{
+			display: block;
+			height: 35px;
+		}
+		.header .nav{
+			float: left;
+			margin-left: 47px;
+		}
+		.header .nav ul{
+			list-style: none;
+		}
+		.header .nav ul li{
+			float: left;
+			width: 85px;
+			border-right: 1px solid #252947;
+			height: 58px;
+		}
+		.header .nav ul li.first{
+			border-left: 1px solid #252947;
+		}
+		.header .nav ul li a{
+			display: block;
+			height: 58px;
+			line-height: 58px;
+			text-align: center;
+			color:#818496;
+			text-decoration: none;
+		}
+		.header .nav ul li.current a{
+			background-color: #252947;
+			color: #fff;
+
+		}
+		.header .nav ul li a:hover{
+			color: #fff;
+		}
+		.joinus{
+			float: left;
+			padding-left: 52px;
+			padding-top: 12px;
+		}
+		.joinus a{
+			display: block;
+			width: 100px;
+			height: 34px;
+			background: url(../images/icons.png) no-repeat 0 -35px;
+			text-indent: -999em;
+			overflow: hidden;
+		}
+		.joinus a:hover{
+			background-position: 0 -69px;
+		}
+
+		 .footer{
+    	height: 91px;
+    	background-color: #191D3A;
+    }
+    .footer .link{
+    	float: left;
+    	height: 91px;
+    	line-height: 91px;
+    	font-size: 12px;
+    }
+    .footer .link a{
+    	color: #6c6e7e;
+    	text-decoration: none;
+    }
+    .footer .copy{
+    	float: right;
+    	height: 91px;
+    	line-height: 91px;
+    	color: #6c6e7e;
+    	font-size: 12px;
+    	position: relative;
+    	padding-right:70px;
+    	
+    }
+    .footer .copy a{
+    	color: #6c6e7e;
+    	text-decoration: none;
+    	
+    }
+    .footer .copy .govicom{
+    	width: 40px;
+    	position: absolute;
+    	top: 20px;
+    	right: 10px;
+    }
